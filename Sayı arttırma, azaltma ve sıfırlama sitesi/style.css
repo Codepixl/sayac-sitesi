@@ -1,0 +1,35 @@
+* body {
+    background-color: lavender;
+}
+#countLabel{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#btnContainer {
+    text-align: center; 
+}
+.buttons {
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: lavender;
+    background-color: navy;
+    border-radius: 10px;
+    border-color: lavender;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+.buttons:hover{
+    background-color: dodgerblue;
+}
+/* Bu şekilde de olabilirdi:
+#increaseBtn {
+    background-color: limegreen;
+}
+#decreaseBtn {
+    background-color: red;
+}
+#resetBtn {
+    background-color: navy;
+}*/
